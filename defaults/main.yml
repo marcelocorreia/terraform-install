@@ -1,34 +1,12 @@
 ---
 app:
   name: terraform
-  version: 0.6.8
+  version: 0.12.24
+  file_group: root
+  file_user: root
 
 install:
   dir : /usr/local/bin
   download_location: https://releases.hashicorp.com/terraform
   file_list:
     - terraform
-    - terraform-provider-digitalocean
-    - terraform-provider-null
-    - terraform-provisioner-chef
-    - terraform-provider-atlas
-    - terraform-provider-dme
-    - terraform-provider-openstack
-    - terraform-provisioner-file
-    - terraform-provider-aws
-    - terraform-provider-dnsimple
-    - terraform-provider-packet
-    - terraform-provisioner-local-exec
-    - terraform-provider-azure
-    - terraform-provider-docker
-    - terraform-provider-rundeck
-    - terraform-provisioner-remote-exec
-    - terraform-provider-cloudflare
-    - terraform-provider-google
-    - terraform-provider-template
-    - terraform-provider-cloudstack
-    - terraform-provider-heroku
-    - terraform-provider-terraform
-    - terraform-provider-consul
-    - terraform-provider-mailgun
-    - terraform-provider-vsphere
